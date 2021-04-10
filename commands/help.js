@@ -32,7 +32,7 @@ module.exports = {
                 )
             
             
-            .setFooter('Type ;help <command_or_category> for more info on a command or a category.');
+            .setFooter('Type ;;help <command_or_category> for more info on a command or a category.');
         
         message.channel.send(helpEmbed);
         }else if (args[0] === 'animals' || args[0] === 'animal') {
@@ -40,7 +40,7 @@ module.exports = {
 		.setTitle("Animals Help")
 		.setURL("https://discord.com/api/oauth2/authorize?client_id=826026233531334657&permissions=8&scope=bot")
 		.setDescription("`birb / bird`, `cat / catto`, `dog / doggo`, `fox`, `koala`, `panda`, `redpanda`, `meme`")
-		.setFooter("Awwww images fo you | Use prefix(;) before each command!")
+		.setFooter("Awwww images fo you | Use prefix(;;) before each command!")
 		.setColor("RANDOM");
 
         message.channel.send(imageEmbed)
@@ -51,7 +51,7 @@ module.exports = {
             .setTitle("Fun Help")
             .setURL("https://discord.com/api/oauth2/authorize?client_id=826026233531334657&permissions=8&scope=bot")
             .setDescription("`8ball`, `ascii`, `bon(fake)`, `moot(fake)`, `gay / gayrate`, `lockdownsever(fake)`, `pp / dicksize`, `rad / rolladie`, `rps / rockpaperscissor`, `waifu / waifurate`, `simp / simprate`, `rickroll`, `caps`, `ship / love (checks love compatibilty bw two users)`")
-            .setFooter("Fake commands look real, but are fake | Use prefix (;) before each command!")
+            .setFooter("Fake commands look real, but are fake | Use prefix (;;) before each command!")
             .setColor("RANDOM")
 
             message.channel.send(funEmbed)
@@ -60,7 +60,7 @@ module.exports = {
             .setTitle("Moderation Help")
             .setURL("https://discord.com/api/oauth2/authorize?client_id=826026233531334657&permissions=8&scope=bot")
             .setDescription("`ban`, `unban`, `kick`, `lock`, `unlock`, `viewlock`, `unviewlock`, `lockdown on/off`, `maintenance on/off`, `slowmode / sm`, `warn`, `purge (upto 99)`")
-            .setFooter("Powerful moderation tools | Use prefix (;) before each command!")
+            .setFooter("Powerful moderation tools | Use prefix (;;) before each command!")
             .setColor("RANDOM")
 
             message.channel.send(funEmbed)
@@ -69,7 +69,7 @@ module.exports = {
             .setTitle("Utility Help")
             .setURL("https://discord.com/api/oauth2/authorize?client_id=826026233531334657&permissions=8&scope=bot")
             .setDescription("`roleinfo`, `avatar`, `calculate`, `covid`, `weather`, `ping`, `whois`, `help`, `poll`")
-            .setFooter("Nice to have utility commands | Use prefix (;) before each command!")
+            .setFooter("Nice to have utility commands | Use prefix (;;) before each command!")
             .setColor("RANDOM")
 
             message.channel.send(funEmbed)
@@ -78,7 +78,7 @@ module.exports = {
             .setTitle("Image Help")
             .setURL("https://discord.com/api/oauth2/authorize?client_id=826026233531334657&permissions=8&scope=bot")
             .setDescription("`glass / frost`, `gay`, `hornycard`, `jail`, `simpcard`, `trigger`")
-            .setFooter("OP image manipulation commands | Use prefix (;) before each command!")
+            .setFooter("OP image manipulation commands | Use prefix (;;) before each command!")
             .setColor("RANDOM")
 
             message.channel.send(funEmbed)
