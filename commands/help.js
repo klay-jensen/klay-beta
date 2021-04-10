@@ -83,8 +83,8 @@ module.exports = {
 
             message.channel.send(funEmbed)
         }else if (args[0] === 'music'){
-            message.channel.send("Please type ;;helpmusic, there is a little bug the devs are working on!")
-	    message.channel.send("<:ok:811597016387420181>")
+            message.channel.send("Please type `;;helpmusic`, there is a little bug the devs are working on!")
+	    
         }
     }
 }
