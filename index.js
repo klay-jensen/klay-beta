@@ -21,9 +21,9 @@ client.on('ready', () => {
     
     setInterval(async ()=>{
         
-        let textList = ['you deserve better', 'be yourself', 'created by klay', 'see the good']
+        let textList = [';;help', 'not under dev', 'created by klay']
         var text = textList[Math.floor(Math.random() * textList.length)];
-        client.user.setActivity(text , { type: 'WATCHING' })
+        client.user.setActivity(text , { type: 'LISTENING' })
     },5000) // milliseconds
 });
     
