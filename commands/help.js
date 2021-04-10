@@ -26,7 +26,7 @@ module.exports = {
                 { name: ':tools: | Utility', value: '`;help Utility`\nChat utility commands', inline: true },
                 { name: '‍', value: '‍', inline: true },
                 { name: ':dog: Animals', value: '`;help animals`\nAwww animal pics', inline: true },
-	        { name: ':musical_note: Music', value: '`;;helpmusc`\nBetter-than-groovy music bot.', inline: true },
+	        { name: ':musical_note: Music', value: '`;;helpmusic`\nBetter-than-groovy music bot.', inline: true },
                 
                 
                 )
