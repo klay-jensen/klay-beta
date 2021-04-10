@@ -17,15 +17,15 @@ module.exports = {
             .setDescription("Thanks for using KlayBot!\nyou can view a category's cogs and commands using `!help Category.`")
             
             .addFields(
-                { name: ':frame_photo: | Image', value: '`;help Image`\nGenerate images and memes!',inline: true },
+                { name: ':frame_photo: | Image', value: '`;;help Image`\nGenerate images and memes!',inline: true },
                 //{ name: '\u200B', value: '\u200B' },
-                { name: ':partying_face: | Fun', value: '`;help Fun`\nSolo and group fun!', inline: true },
+                { name: ':partying_face: | Fun', value: '`;;help Fun`\nSolo and group fun!', inline: true },
         
                 { name: '‍', value: '‍', inline: true },
-                { name: ':hammer: | Moderation', value: '`;help Moderation`\nPowerful moderation tools.', inline: true },
-                { name: ':tools: | Utility', value: '`;help Utility`\nChat utility commands', inline: true },
+                { name: ':hammer: | Moderation', value: '`;;help Moderation`\nPowerful moderation tools.', inline: true },
+                { name: ':tools: | Utility', value: '`;;help Utility`\nChat utility commands', inline: true },
                 { name: '‍', value: '‍', inline: true },
-                { name: ':dog: | Animals', value: '`;help animals`\nAwww animal pics', inline: true },
+                { name: ':dog: | Animals', value: '`;;help animals`\nAwww animal pics', inline: true },
 	        { name: ':musical_note: | Music', value: '`;;helpmusic`\nBetter-than-groovy music bot.', inline: true },
                 
                 
