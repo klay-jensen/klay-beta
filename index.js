@@ -39,10 +39,12 @@ client.on("message", message => {
     }
     if (message.content.includes("<@!751054122387767317>")){
         message.react("810551673868386315")
-    }if (message.content.includes("Klay" || "klay")){
-        message.react("829243345539825694")
-    }if (message.content.includes("Tejas" || "tejas")){
-        message.react("829243345539825694")
+    }if (message.content.includes("Klay")){
+        message.reply("<:peperickroll:829243345539825694>")
+    }if (message.content.includes("Tejas")){
+        message.reply("<:peperickroll:829243345539825694>")
+    }if (message.content.includes("tejas")){
+        message.reply("<:peperickroll:829243345539825694>")
     }
     
     if(!message.content.startsWith(prefix) || message.author.bot) return;
