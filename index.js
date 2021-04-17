@@ -33,6 +33,12 @@ client.on("message", message => {
         // delete message, log, etc.
         message.channel.send("You gay")
       }
+    if (message.content.has("<@751054122387767317>"){
+        message.react("810551673868386315")
+      }
+    if (message.content.has("<@!751054122387767317>"){
+        message.react("810551673868386315")
+      }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
