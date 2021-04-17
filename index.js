@@ -33,12 +33,7 @@ client.on("message", message => {
         // delete message, log, etc.
         message.channel.send("You gay")
       }
-    if (message.content.has("<@751054122387767317>")){
-        message.react("810551673868386315")
-      }
-    if (message.content.has("<@!751054122387767317>")){
-        message.react("810551673868386315")
-      }
+    
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
@@ -187,6 +182,10 @@ client.on("message", message => {
         client.commands.get('ttt').execute(client,message, args);
     }else if (command === 'ship'){
         client.commands.get('ship').execute(client,message, args);
+    }else if (command === 'noobrate'){
+        client.commands.get('noobrate').execute(message, args);
+    }else if (command === 'noob'){
+        client.commands.get('noobrate').execute(message, args);
     }
     
 });
