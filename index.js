@@ -28,6 +28,7 @@ client.on('ready', () => {
 });
     
 client.on("message", message => {
+    
     if (message.content.includes("Gay")){
         // message.content contains a forbidden word;
         // delete message, log, etc.
@@ -38,6 +39,10 @@ client.on("message", message => {
     }
     if (message.content.includes("<@!752371687365804096>")){
         message.react("810551673868386315")
+    }if (message.content.includes("Klay" || "klay")){
+        message.react("829243345539825694")
+    }if (message.content.includes("Tejas" || "tejas")){
+        message.react("829243345539825694")
     }
     
     if(!message.content.startsWith(prefix) || message.author.bot) return;
