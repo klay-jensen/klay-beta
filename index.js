@@ -39,14 +39,21 @@ client.on("message", message => {
     }
     if (message.content.includes("<@!751054122387767317>")){
         message.react("810551673868386315")
-    }if (message.content.includes("Klay")){
-        message.channel.send("<:peperickroll:829243345539825694>")
-    }if (message.content.includes("Tejas")){
-        message.channel.send("<:peperickroll:829243345539825694>")
-    }if (message.content.includes("tejas")){
-        message.channel.send("<:peperickroll:829243345539825694>")
+    }if (message.content.includes("<@752371687365804096>")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
     }
-    
+    if (message.content.includes("<@!752371687365804096>")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
+    }if (message.content.includes("klay")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
+    }if (message.content.includes("tejas")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
+    }if (message.content.includes("Klay")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
+    }
+    if (message.content.includes("Tejas")){
+        message.channel.send("<a:peperickroll:829243345539825694>")
+    }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
