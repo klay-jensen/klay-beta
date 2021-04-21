@@ -40,10 +40,23 @@ client.on("message", message => {
     if (message.content.includes("<@!751054122387767317>")){
         message.react("810551673868386315")
     }if (message.content.includes("<@752371687365804096>")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
+        message.react("826887203526410240")
+        message.react("810551673868386315")
+        message.react("823820413644701726")
+        message.react("820890739901857813")
+        message.react("811105176198971403")
+        message.react("826309212669345793")
+        message.react("810552778132684800")
+        
     }
     if (message.content.includes("<@!752371687365804096>")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
+       message.react("826887203526410240")
+        message.react("810551673868386315")
+        message.react("823820413644701726")
+        message.react("820890739901857813")
+        message.react("811105176198971403")
+        message.react("826309212669345793")
+        message.react("810552778132684800")
     }if (message.content.includes("klay")){
         message.channel.send("<a:peperickroll:829243345539825694>")
     }if (message.content.includes("tejas")){
