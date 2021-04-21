@@ -53,6 +53,10 @@ client.on("message", message => {
     }
     if (message.content.includes("Tejas")){
         message.channel.send("<a:peperickroll:829243345539825694>")
+    }if (message.content.includes("<@!752508262733316147>")){
+        message.react("823820685158907904")
+    }if (message.content.includes("<@752508262733316147>")){
+        message.react("823820685158907904")
     }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
