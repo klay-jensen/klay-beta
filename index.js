@@ -70,6 +70,10 @@ client.on("message", message => {
         message.react("823820685158907904")
     }if (message.content.includes("<@752508262733316147>")){
         message.react("823820685158907904")
+    }if (message.content.includes(":annoyed:")){
+        message.react("796225667003187201")
+    }if (message.content.includes(":really:")){
+        message.react("826309212669345793")
     }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
