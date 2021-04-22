@@ -28,12 +28,34 @@ client.on('ready', () => {
 });
     
 client.on("message", message => {
+    var emojilist = [
+           "Sup losers?",
+           "Wear a mask goddamit",
+           
+           "Avoid outing, dont be like armaan :)",
+           "Friendly reminder to not abuse the owner :)"
+];
+    if (Math.random() < .05) {
+    message.react ("820890739901857813");
+        }
+    var rand = Math.floor(Math.random() * emojilist.length);
+    if (Math.random() < .05) {
+        message.channel.send(emojilist[rand]);
+            }  
     
-    if (message.content.includes("Gay")){
+    if (message.content.includes("Gay" || "gay")){
+        if (message.author.bot) return;
         // message.content contains a forbidden word;
         // delete message, log, etc.
         message.channel.send("You gay")
       }
+    if (message.content === "F"){
+        if (message.author.bot) return;
+        message.channel.send("f")
+    }if (message.content === "f"){
+        if (message.author.bot) return;
+        message.channel.send("f")
+    }
     if (message.content.includes("<@751054122387767317>")){
         message.react("810551673868386315")
     }
@@ -57,15 +79,6 @@ client.on("message", message => {
         message.react("811105176198971403")
         message.react("826309212669345793")
         message.react("810552778132684800")
-    }if (message.content.includes("klay")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
-    }if (message.content.includes("tejas")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
-    }if (message.content.includes("Klay")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
-    }
-    if (message.content.includes("Tejas")){
-        message.channel.send("<a:peperickroll:829243345539825694>")
     }if (message.content.includes("<@!752508262733316147>")){
         message.react("823820685158907904")
     }if (message.content.includes("<@752508262733316147>")){
