@@ -31,6 +31,8 @@ client.on("message", message => {
     var emojilist = [
            "Sup losers?",
            "Wear a mask goddamit",
+        "Maintain social distancing",
+        "Sanitize regularly",
            
            "Avoid outing, dont be like armaan :)",
            "Friendly reminder to not abuse the owner :)"
